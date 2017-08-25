@@ -40,5 +40,5 @@ This component is taken almost verbatim from my [UnityCommon repository](https:/
 
 ## Changelog
 
-# 1.0 08/24/2017
+### 1.0 08/24/2017
 - Initial commit
