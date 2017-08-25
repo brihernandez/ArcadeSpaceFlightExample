@@ -26,6 +26,14 @@ public class ShipInput : MonoBehaviour
     // How quickly the throttle reacts to input.
     private const float THROTTLE_SPEED = 0.5f;
 
+    // Keep a reference to the ship this is attached to just in case.
+    private Ship ship;
+
+    private void Awake()
+    {
+        ship = GetComponent<Ship>();
+    }
+
     private void Update()
     {
         if (useMouseInput)

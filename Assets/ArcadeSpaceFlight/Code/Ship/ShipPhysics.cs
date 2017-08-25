@@ -26,6 +26,9 @@ public class ShipPhysics : MonoBehaviour
 
     private Rigidbody rbody;
 
+    // Keep a reference to the ship this is attached to just in case.
+    private Ship ship;
+
     // Use this for initialization
     void Awake()
     {
@@ -34,6 +37,8 @@ public class ShipPhysics : MonoBehaviour
         {
             Debug.LogWarning(name + ": ShipPhysics has no rigidbody.");
         }
+
+        ship = GetComponent<Ship>();
     }
 
     void FixedUpdate()

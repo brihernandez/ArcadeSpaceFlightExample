@@ -3,6 +3,7 @@
 /// <summary>
 /// Ties all the primary ship components together.
 /// </summary>
+[RequireComponent(typeof(Rigidbody))]
 [RequireComponent(typeof(ShipPhysics))]
 [RequireComponent(typeof(ShipInput))]
 public class Ship : MonoBehaviour
