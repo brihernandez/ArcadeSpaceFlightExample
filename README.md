@@ -36,4 +36,4 @@ In keeping with the mentality of separating out responsibilities, this component
 
 ## Ship Physics
 
-This component is taken almost verbatim from my UnityCommon repository (https://github.com/brihernandez/UnityCommon). It's a generic space physics component that can apply forces and torques to a rigidbody using inputs that a ship's input would give. You give it the forces that it can apply in each axis, and then how much of those forces to apply.
+This component is taken almost verbatim from my [UnityCommon repository](https://github.com/brihernandez/UnityCommon). It's a generic space physics component that can apply forces and torques to a rigidbody using inputs that a ship's input would give. You give it the forces that it can apply in each axis, and then how much of those forces to apply.
