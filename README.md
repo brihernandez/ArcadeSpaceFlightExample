@@ -1,5 +1,11 @@
-# ArcadeSpaceFlightExample
-Simple example of arcade style space sim flight physics.
+# Arcade Space Flight Physics Example
+Simple example of arcade style space sim flight physics. Built with Unity 5.6.
+
+![screenshot](http://i.imgur.com/vQEt6Jd.png)
+
+## Download
+
+You can either clone the repository, or [download either the demo or asset package from the releases page](https://github.com/brihernandez/ArcadeSpaceFlightExample/releases).
 
 ## Controls
 
